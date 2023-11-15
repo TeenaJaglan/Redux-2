@@ -1,0 +1,7 @@
+.image{
+
+object-fit: fill;
+}
+.card:hover{
+  height:400px;
+}
