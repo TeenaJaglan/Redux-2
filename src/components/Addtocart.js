@@ -6,7 +6,7 @@ import List from './List';
 import { functionslice} from '../redux/cartslice';
 import { initialState } from '../redux/cartslice.js';
 export default function Addtocart() {
-  const {value} = useSelector((state) => state.cartslice.value);
+  const value = useSelector((state) => state.cartslice);
 // const value=[];
 
   const [totalamount,settotalamount] = useState(0);

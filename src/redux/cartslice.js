@@ -4,7 +4,7 @@
 
  export const functionslice = createSlice({
     name:"cartslice",
-    initialState:{value:[]},
+    initialState:[],
     reducers:{
         add :(state,action)=>{
             console.log("slice function is:");

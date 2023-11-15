@@ -5,7 +5,7 @@ import {useSelector,useDispatch} from 'react-redux';
 import { initialState } from '../redux/cartslice.js';
 export default function Card({item}) {
   const dispatch = useDispatch();
-  const {value} = useSelector((state) => state.cartslice.value);
+  const value = useSelector((state) => state.cartslice);
 // const value=[];
   const [title,settitle] = useState(""); 
   const [description,setdescription] = useState("");
